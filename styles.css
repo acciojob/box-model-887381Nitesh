@@ -1,33 +1,33 @@
 /*  your css code here. If applicable */
-.container{
-	width:100%;
-	border:2px solid black;
-	border-radius:10px;
-	padding:20px;
-	text-align:center;
-	
-}
 
-.green{
-	height:200px;
-	width:200px;
-	border-radius:50%;
-	background-color:yellow;
-	display:inline-block;
-}
-.yellow{
-	height:200px;
-	width:200px;
-	border-radius:50%;
-	background-color:red;
-	display:inline-block;
-}
-.red{
-	height:200px;
-	width:200px;
-	border-radius:50%;
-	background-color:green;
-	display:inline-block;
-	
-}
+  .container {
+            width: 200px;
+            padding: 20px;
+            border: 2px solid #000;
+            border-radius: 10px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            background-color: #f4f4f4;
+            margin: 50px auto;
+        }
 
+        .red, .green, .yellow {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .yellow {
+            background-color: yellow;
+        }
