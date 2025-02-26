@@ -3,29 +3,31 @@
 	width:100%;
 	border:2px solid black;
 	border-radius:10px;
-	display:flex;
-	padding:30px;
-	gap:10px;
-	align-items:center;
-	justify-content:center;
+	padding:20px;
+	text-align:center;
 	
 }
-.red{
-	height:200px;
-	width:200px;
-	border-radius:50%;
-	background-color:green;
-	
-}
+
 .green{
 	height:200px;
 	width:200px;
 	border-radius:50%;
 	background-color:yellow;
+	display:inline-block;
 }
 .yellow{
 	height:200px;
 	width:200px;
 	border-radius:50%;
 	background-color:red;
+	display:inline-block;
 }
+.red{
+	height:200px;
+	width:200px;
+	border-radius:50%;
+	background-color:green;
+	display:inline-block;
+	
+}
+
